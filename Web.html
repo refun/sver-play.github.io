@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>逃出佛罗克官网</title>
+    <title>Escape from Frock</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .header_sm {
+            background-color: #333;
+            color: #4c00ff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .nav button {
+            background-color: #555;
+            color: rgba(201, 198, 198, 0.911);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        .nav.not {
+            background-color: #555;
+            color: rgba(126, 127, 128, 0.911);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        .nav button:hover {
+            background-color: #777;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+        }
+        .game-thumbnail {
+            width: 100%;
+            padding-bottom: 33.33%; /* 4:3 ratio */
+            position: relative;
+        }
+        .game-thumbnail img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .game-info {
+            margin-top: 20px;
+            display: none; /* 默认不显示，点击按钮后显示 */
+        }
+        .game-download {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .game-download:hover {
+            background-color: #45a049;
+        }
+        .active {
+            background-color: #777;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('.game-info');
+            sections.forEach(function(section) {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+            var buttons = document.querySelectorAll('.nav button');
+            buttons.forEach(function(button) {
+                button.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+</head>
+<body>
+
+    <div class="header">
+        <h1>  逃出佛罗克</h1>
+        <h1>   官方网站</h1>
+        <div class="nav">
+            <button onclick="showSection('download')">下载</button>
+            <button onclick="showSection('news')">爆料</button>
+            <button onclick="showSection('info')">游戏信息</button>
+            <button onclick="showSection('gl')">游戏攻略</button>
+            <button onclick="showSection('zzxx')">作者信息</button>
+            <button onclick="showSection('afd')">跳转爱发电</button>/
+            <button onclick="showSection('xgs')">娱乐小故事BETA</button>
+        </div>
+    </div>
+        </div>
+        <div id="download" class="game-info">
+            <h2>外链下载</h2>
+            <p>点击以下按钮下载游戏：</p>
+            <button class="game-download" onclick="window.location.href='https://pan.huang1111.cn/s/oRVks8';">外链下载</button>
+            <h2>跳转爱发电下载<h2>
+            <p>点击一下按钮跳转至爱发电官方下载</p>
+            <button class="game-download" onclick="window.location.href='https://afdian.net/a/sversva';">跳转外网</button>
+        </div>
+        <div id="news" class="game-info" style="display:none;">
+            <h2>最新爆料</h2>
+            <p>新版本1.17增加了肢体血量，背景更新修复部分bug。更多请在游戏中自己感受！</p>
+        </div>
+        <div id="gl" class="game-info" style="display:none">
+            <h2>游戏攻略<h2>
+            <h2>1.神秘小代码<h2>
+            <p>在游戏中作者添加了神秘小代码，按下k即可输入！获取请前往爱发电！@refun</p>
+        </div>
+        <div id="info" class="game-info" style="display:none;">
+            <h2>游戏信息</h2>
+            <p>开发日期：2023Y 12M 25D</p>
+            <p>开发工作室：热FUN工作室</p>
+        </div>
+        <div id="zzxx" class="game-info">
+            <h2>作者信息</h2>
+            <p>归属地：河南</p>
+            <p>身份：小学生</p>
+            <h4>热FUN工作室<h4>
+        </div>
+        <div id="afd" class="game-info">
+            <h2>跳转</h2>
+            <p>按下按钮跳转爱发电作者主页</p>
+            <button class="game-download" onclick="window.location.href='https://afdian.net/a/sversva';">爱发电</button>
+        </div>
+        <div id="xgs" class="game-info">
+            <h1>精彩小故事1</h1>
+            <h2>2023年12月7日</h2>
+            <p>李：韩宝宝我喜欢你</p>
+            <p>韩：其实我也喜欢你</p>
+            <p>合：我们结婚吧</p>
+            <p>观众：吃瓜😂</p>
+            <h2>一年后</h2>
+            <h2>⚠未完待续...⚠</h2>
+            
+    </div>
+</body>
+</html>
